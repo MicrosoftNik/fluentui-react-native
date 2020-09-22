@@ -1,18 +1,14 @@
 /** @jsx withSlots */
-import { /*React,*/ useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Animated, TouchableWithoutFeedback, StyleSheet, UIManager, Platform, View } from 'react-native';
-
-//import * as React from 'react';
 import { IToggleSlotProps, IToggleState, IToggleProps, IToggleRenderData, toggleName, IToggleType } from './Toggle.types';
 import { compose, IUseComposeStyling } from '@uifabricshared/foundation-compose';
 import { ISlots, withSlots } from '@uifabricshared/foundation-composable';
 import { Text } from '@fluentui-react-native/text';
 import { settings } from './Toggle.settings';
 //import { backgroundColorTokens, borderTokens, textTokens, foregroundColorTokens, getPaletteFromTheme } from '@fluentui-react-native/tokens';
-//import { filterViewProps, filterImageProps } from '@fluentui-react-native/adapters';
 import { mergeSettings } from '@uifabricshared/foundation-settings';
 import { useAsPressable, useViewCommandFocus } from '@fluentui-react-native/interactive-hooks';
-
 import InsetShadow from 'react-native-inset-shadow';
 
 export const Toggle = compose<IToggleType>({
@@ -158,16 +154,6 @@ export const Toggle = compose<IToggleType>({
       disabled: {
         borderWidth: 1,
         borderColor: '#E9E9E9',
-      },
-      inner: {
-        alignItems: 'center',
-        borderRadius: 10,
-        height: 18,
-        justifyContent: 'center',
-        width: 33,
-      },
-      innerShadow: {
-        elevation: 1,
       },
       knob: {
         backgroundColor: '#FFFFFF',
