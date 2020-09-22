@@ -13721,6 +13721,13 @@ react-is@^16.12.0, react-is@^16.13.1, react-is@^16.8.1, react-is@^16.8.4, react-
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-native-inset-shadow@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-inset-shadow/-/react-native-inset-shadow-1.0.3.tgz#9a0cd6d33b69cbc95d1aa5568e1b938e9a43506b"
+  integrity sha512-4UXuSrenJtOWKcV0zSqHLQ47Oxn+BXdmxFxYXf5rE8KletbTvQq8ziZsX8MSEegUGWDcJJ3Mw+1OVbPJxm4lZg==
+  dependencies:
+    prop-types "^15.7.2"
+
 react-native-macos@^0.62.0-0:
   version "0.62.10"
   resolved "https://registry.yarnpkg.com/react-native-macos/-/react-native-macos-0.62.10.tgz#302d7f66c272eccc81f16cbbbc2f30b5db5c6233"

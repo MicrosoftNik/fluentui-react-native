@@ -1,3 +1,4 @@
+import { ToggleTest, TOGGLE_TESTPAGE } from '../../fluent-tester/src/RNTester/TestComponents/Toggle';
 import { ButtonTest, HOMEPAGE_BUTTON_BUTTON } from '../../fluent-tester/src/RNTester/TestComponents/Button';
 import { CalloutTest, HOMEPAGE_CALLOUT_BUTTON } from '../../fluent-tester/src/RNTester/TestComponents/Callout';
 import { CheckboxTest, HOMEPAGE_CHECKBOX_BUTTON } from '../../fluent-tester/src/RNTester/TestComponents/Checkbox';
@@ -16,73 +17,78 @@ import { TestDescription } from '@fluentui-react-native/tester/src/RNTester/Test
 
 export const windowsTests: TestDescription[] = [
   {
+    name: 'Toggle Test',
+    component: ToggleTest,
+    testPage: TOGGLE_TESTPAGE,
+  },
+  {
     name: 'Button Test',
     component: ButtonTest,
-    testPage: HOMEPAGE_BUTTON_BUTTON
+    testPage: HOMEPAGE_BUTTON_BUTTON,
   },
   {
     name: 'Callout Test',
     component: CalloutTest,
-    testPage: HOMEPAGE_CALLOUT_BUTTON
+    testPage: HOMEPAGE_CALLOUT_BUTTON,
   },
   {
     name: 'ContextualMenu Test',
     component: ContextualMenuTest,
-    testPage: HOMEPAGE_CONTEXTUALMENU_BUTTON
+    testPage: HOMEPAGE_CONTEXTUALMENU_BUTTON,
   },
   {
     name: 'Focus Trap Zone Test',
     component: FocusTrapTest,
-    testPage: HOMEPAGE_FOCUSTRAPZONE_BUTTON
+    testPage: HOMEPAGE_FOCUSTRAPZONE_BUTTON,
   },
   {
     name: 'Pressable Test',
     component: PressableTest,
-    testPage: HOMEPAGE_PRESSABLE_BUTTON
+    testPage: HOMEPAGE_PRESSABLE_BUTTON,
   },
   {
     name: 'Link Test',
     component: LinkTest,
-    testPage: HOMEPAGE_LINK_BUTTON
+    testPage: HOMEPAGE_LINK_BUTTON,
   },
   {
     name: 'Separator Test',
     component: SeparatorTest,
-    testPage: HOMEPAGE_SEPARATOR_BUTTON
+    testPage: HOMEPAGE_SEPARATOR_BUTTON,
   },
   {
     name: 'Text Test',
     component: TextTest,
-    testPage: HOMEPAGE_TEXT_BUTTON
+    testPage: HOMEPAGE_TEXT_BUTTON,
   },
   {
     name: 'Theme Test',
     component: ThemeTest,
-    testPage: HOMEPAGE_THEME_BUTTON
+    testPage: HOMEPAGE_THEME_BUTTON,
   },
   {
     name: 'PersonaCoin Test',
     component: PersonaCoinTest,
-    testPage: HOMEPAGE_PERSONACOIN_BUTTON
+    testPage: HOMEPAGE_PERSONACOIN_BUTTON,
   },
   {
     name: 'RadioGroup Test',
     component: RadioGroupTest,
-    testPage: HOMEPAGE_RADIOGROUP_BUTTON
+    testPage: HOMEPAGE_RADIOGROUP_BUTTON,
   },
   {
     name: 'Persona Test',
     component: PersonaTest,
-    testPage: HOMEPAGE_PERSONA_BUTTON
+    testPage: HOMEPAGE_PERSONA_BUTTON,
   },
   {
     name: 'Checkbox Test',
     component: CheckboxTest,
-    testPage: HOMEPAGE_CHECKBOX_BUTTON
+    testPage: HOMEPAGE_CHECKBOX_BUTTON,
   },
   {
     name: 'Svg Test',
     component: SvgTest,
-    testPage: HOMEPAGE_SVG_BUTTON
-  }
+    testPage: HOMEPAGE_SVG_BUTTON,
+  },
 ];
